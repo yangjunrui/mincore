@@ -159,11 +159,10 @@ parse_params(int argc, char **argv, param_t *param) {
                 param->touch = true;
                 break;
             case '?':
-                fprintf(stderr, "%s: invalid options\n", optarg);
             case 'h':
             default :
                 help();
-                exit(0);
+                exit(1);
                 break;
         }
     }
