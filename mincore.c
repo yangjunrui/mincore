@@ -115,7 +115,7 @@ inspect(const char *file, bool touch) {
         }
     }
     bincore = pincore * psize;
-    bincore -= (tailincore & !aligned) ? psize - tailsize : 0;
+    bincore -= (tailincore && !aligned) ? psize - tailsize : 0;
 
     fprintf(stderr,
             "%s:\n"
