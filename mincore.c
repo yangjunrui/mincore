@@ -176,6 +176,7 @@ parse_params(int argc, char **argv, param_t *param) {
 void
 help() {
     fprintf(stderr,
+            "mincore [options] <-p file or directory>\n"
             "-h\n"
             "--help\n"
             "\tprint this message.\n"
