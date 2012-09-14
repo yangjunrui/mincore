@@ -168,6 +168,7 @@ parse_params(int argc, char **argv, param_t *param) {
     }
     if (param->path == NULL) {
         fprintf(stderr, "babe, babe, give me the path\n");
+        help();
         return false;
     }
     return true;

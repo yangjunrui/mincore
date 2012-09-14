@@ -9,6 +9,7 @@ How To
 <pre>
 $ make
 $ ./mincore -h
+mincore [options] <-p file or directory>
 -h
 --help
   print this message.
