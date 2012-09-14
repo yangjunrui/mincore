@@ -6,7 +6,7 @@ Just a wrapper of the `mincore` syscall
 How To
 =======
 
-<code>
+<pre>
 $ make
 $ ./mincore -h
 -h
@@ -19,4 +19,4 @@ $ ./mincore -h
 --touch
   whether to touch pages of the file, in order to load them into memory.
 $ ./mincore -p <file or directory> \[-t\]
-</code>
+</pre>
